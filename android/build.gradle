@@ -44,10 +44,6 @@ android {
     }
 }
 
-configurations.all {
-    exclude group: "com.google.mlkit", module:"barcode-scanning"
-}
-
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
